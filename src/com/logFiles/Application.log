@@ -1,0 +1,48 @@
+| TestBase| | OpenBrowser | | 35 | 23/11/2018 11:24:41  devpinoyLogger Browser choosen is chrome
+| TestBase| | OpenBrowser | | 43 | 23/11/2018 11:24:44  devpinoyLogger chrome Browser is launched...
+| TestBase| | OpenBrowser | | 51 | 23/11/2018 11:24:47  devpinoyLogger url is opened
+| TestBase| | OpenBrowser | | 53 | 23/11/2018 11:24:48  devpinoyLogger Browser is maximized
+| TestBase| | OpenBrowser | | 55 | 23/11/2018 11:24:48  devpinoyLogger Implicit wait is set
+| Library| | login | | 17 | 23/11/2018 11:24:49  devpinoyLogger username is entered
+| Library| | login | | 19 | 23/11/2018 11:24:49  devpinoyLogger password is entered
+| Library| | login | | 21 | 23/11/2018 11:24:49  devpinoyLogger clicked on login button
+| Library| | clickontask | | 26 | 23/11/2018 11:24:51  devpinoyLogger clicked on task 
+| Library| | clickonproandcustomer | | 31 | 23/11/2018 11:24:52  devpinoyLogger clicked on proandcustomer 
+| Library| | clickoncreatenewcustomer | | 35 | 23/11/2018 11:24:52  devpinoyLogger clicked on createnewcustomer 
+| Library| | createcustomer | | 44 | 23/11/2018 11:24:52  devpinoyLogger Entered customer name as CustomerA
+| Library| | createcustomer | | 46 | 23/11/2018 11:24:52  devpinoyLogger Entered customer description as DescriptionA
+| Library| | createcustomer | | 48 | 23/11/2018 11:24:52  devpinoyLogger Selected cradio1
+| Library| | createcustomer | | 50 | 23/11/2018 11:24:53  devpinoyLogger clicked on createcutomer button
+| Library| | verifysucessmsg | | 69 | 23/11/2018 11:24:53  devpinoyLogger Success msg displayed...
+| Library| | verifysucessmsg | | 73 | 23/11/2018 11:24:54  devpinoyLogger Clicked on logout
+| Test123| | testcase123 | | 27 | 23/11/2018 11:24:54  devpinoyLogger ----------------------------------------------------------Test is completed------------------------------------------
+| Library| | assertall | | 88 | 23/11/2018 11:24:54  devpinoyLogger Executed assertall statement
+| Library| | login | | 17 | 23/11/2018 11:24:54  devpinoyLogger username is entered
+| Library| | login | | 19 | 23/11/2018 11:24:54  devpinoyLogger password is entered
+| Library| | login | | 21 | 23/11/2018 11:24:54  devpinoyLogger clicked on login button
+| Library| | clickontask | | 26 | 23/11/2018 11:24:55  devpinoyLogger clicked on task 
+| Library| | clickonproandcustomer | | 31 | 23/11/2018 11:24:55  devpinoyLogger clicked on proandcustomer 
+| Library| | clickoncreatenewcustomer | | 35 | 23/11/2018 11:24:56  devpinoyLogger clicked on createnewcustomer 
+| Library| | createcustomer | | 44 | 23/11/2018 11:24:56  devpinoyLogger Entered customer name as CustomerB
+| Library| | createcustomer | | 46 | 23/11/2018 11:24:56  devpinoyLogger Entered customer description as DescriptionB
+| Library| | createcustomer | | 48 | 23/11/2018 11:24:56  devpinoyLogger Selected cradio2
+| Library| | createcustomer | | 50 | 23/11/2018 11:24:56  devpinoyLogger clicked on createcutomer button
+| Library| | verifysucessmsg | | 69 | 23/11/2018 11:24:56  devpinoyLogger Success msg displayed...
+| Library| | verifysucessmsg | | 73 | 23/11/2018 11:24:57  devpinoyLogger Clicked on logout
+| Test123| | testcase123 | | 27 | 23/11/2018 11:24:57  devpinoyLogger ----------------------------------------------------------Test is completed------------------------------------------
+| Library| | assertall | | 88 | 23/11/2018 11:24:57  devpinoyLogger Executed assertall statement
+| Library| | login | | 17 | 23/11/2018 11:24:57  devpinoyLogger username is entered
+| Library| | login | | 19 | 23/11/2018 11:24:57  devpinoyLogger password is entered
+| Library| | login | | 21 | 23/11/2018 11:24:57  devpinoyLogger clicked on login button
+| Library| | clickontask | | 26 | 23/11/2018 11:24:59  devpinoyLogger clicked on task 
+| Library| | clickonproandcustomer | | 31 | 23/11/2018 11:24:59  devpinoyLogger clicked on proandcustomer 
+| Library| | clickoncreatenewcustomer | | 35 | 23/11/2018 11:24:59  devpinoyLogger clicked on createnewcustomer 
+| Library| | createcustomer | | 44 | 23/11/2018 11:25:00  devpinoyLogger Entered customer name as CustomerC
+| Library| | createcustomer | | 46 | 23/11/2018 11:25:00  devpinoyLogger Entered customer description as DescriptionC
+| Library| | createcustomer | | 48 | 23/11/2018 11:25:00  devpinoyLogger Selected cradio3
+| Library| | createcustomer | | 50 | 23/11/2018 11:25:00  devpinoyLogger clicked on createcutomer button
+| Library| | verifysucessmsg | | 69 | 23/11/2018 11:25:00  devpinoyLogger Success msg displayed...
+| Library| | verifysucessmsg | | 73 | 23/11/2018 11:25:01  devpinoyLogger Clicked on logout
+| Test123| | testcase123 | | 27 | 23/11/2018 11:25:01  devpinoyLogger ----------------------------------------------------------Test is completed------------------------------------------
+| Library| | assertall | | 88 | 23/11/2018 11:25:01  devpinoyLogger Executed assertall statement
+| TestBase| | CloseBrowser | | 76 | 23/11/2018 11:25:02  devpinoyLogger Browser closed...
