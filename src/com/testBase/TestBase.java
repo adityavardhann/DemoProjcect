@@ -36,10 +36,12 @@ public class TestBase {
 		if(Browser.equalsIgnoreCase("ie")){
 			System.setProperty("webdriver.ie.driver", "IEDriverServer.exe");
 			 driver=new InternetExplorerDriver();
+			 System.out.println("IE Browser is launched...")
 			 l.info("IE Browser is launched...");
 		}else if(Browser.equalsIgnoreCase("chrome")){
 			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 			 driver=new ChromeDriver(); //openBrowser
+                         System.out.println("chrome Browser is launched...")
 			 l.info("chrome Browser is launched...");
 		}else if(Browser.equalsIgnoreCase("mozilla")){
 			//System.setProperty("webdriver.firefox.marionette", "geckodriver.exe");
