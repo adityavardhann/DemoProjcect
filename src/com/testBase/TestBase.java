@@ -2,7 +2,6 @@ package com.testBase;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Hashtable;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;

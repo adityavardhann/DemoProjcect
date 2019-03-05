@@ -1,7 +1,6 @@
 package com.library;
 
 import java.io.File;
-import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
