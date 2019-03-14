@@ -68,15 +68,11 @@ public class TestBase {
 		
 		FileInputStream fi = new FileInputStream(new File(".\\src\\com\\excelFiles\\Moduledriver.xlsx"));
 		Mxls = new XSSFWorkbook(fi);
-//		Mxls=new ShineXlsReader(".\\src\\com\\excelFiles\\Moduledriver.xlsx");
-		//int modulecount = Mxls.getRowCount("Mainsheet");
 		int modulecount = Mxls.getSheet("Mainsheet").getLastRowNum();
 		for( int i=2;i<=modulecount;i++){
-			//String modulename = Mxls.getCellData("Mainsheet", 0, i);
 			String modulename = Mxls.getSheet("Mainsheet").getRow(i).getCell(0).getStringCellValue();
 			String exestatus = Mxls.getSheet("Mainsheet").getRow(i).getCell(1).getStringCellValue();
 			if(exestatus.equalsIgnoreCase("yes")){
-				//int testcount = Mxls.getRowCount(modulename);
 				int testcount = Mxls.getSheet(modulename).getLastRowNum();
 				for(int j=2;j<=testcount;j++){
 					String testid =  Mxls.getSheet(modulename).getRow(j).getCell(0).getStringCellValue();
